@@ -1,0 +1,124 @@
+body{
+    margin: 2% 0 0 5%;
+}
+.main{
+    display: flex;
+}
+.wow{
+    color: blueviolet;
+}
+
+@font-face {
+    font-family: "peace_sans.otf";
+    src: url("../fonts/peace_sans.otf") format("truetype");
+    font-style: normal;
+    font-weight: 200;
+}
+
+p{
+    font-family: "peace_sans.otf";
+}
+
+h1{
+    color:magenta;
+}
+/* селектор по типу элемента */
+
+#dom{
+    font-size: 34px;
+}
+/* селектор по идентификатору*/
+
+ul li{
+    color:aquamarine;
+    font-size: larger;
+}
+/* вот у меня есть ул, а внутри ул - ли */
+
+li:first-child {
+    font-style: oblique;
+}
+/* make first element cursivus lol */
+
+nav > ul{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+/* селектор дочерних эд */
+
+a{
+    color:olivedrab;
+}
+/* colorizing links */
+
+a:hover{
+    color:darkorange;
+}
+/* colorizing links in hover */
+
+h2 + p {
+    font-weight: bold;
+}
+
+div{
+    color:mediumpurple;
+    background-color: rgb(254, 205, 236);
+    width: 1000px;
+    height: 20;
+    text-align: center;
+    border-radius: 60;
+}
+
+
+
+.korobka{
+    width: 250px;
+    height: 300px;
+    background-color: bisque;
+}
+
+.ddd{
+
+    color: darkblue;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+}
+.uuu{
+    color: darkblue;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+/* задаем коробочку */
+.ciferiki{
+    color:brown;
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.content-container{
+    background-color: coral;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+section{
+    background-color: red;
+}
+
+.section{
+    background-color: gold;
+}
+
