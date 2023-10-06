@@ -1,0 +1,34 @@
+.container{
+    display: flex; /* делает коробочки горизонтально */
+}
+
+.blokk{
+    display: flex; /* выровнять */
+    justify-content: space-between;
+}
+
+.blokend{
+    display: flex;
+    justify-content: flex-end; /* выключка по правомму краю*/
+}
+
+.blokcenter{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: blanchedalmond;
+    color: #5d74b2;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px; /*марджины суммируются - вокруг одного блока 10 пикс и вокруг второго - между ними расстояние в 20 пикс*/
+}/* делает коробочки, они будут стоять вертикально */
+
+.zagolowok{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+} /*ширина блока 100 проц, элемент внутри коробочки по центру - h1*/
